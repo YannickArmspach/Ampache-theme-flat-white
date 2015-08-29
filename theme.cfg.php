@@ -26,7 +26,7 @@ name = "flat-white"
 ; Theme CSS Bases
 ; Structure: [css_path]
 ; Multiples bases must be separated with ','
-base = "templates/default.css,custom/custom.css"
+base = "templates/default.css"
 
 ; Theme Author
 author = "YannickArmspach"
