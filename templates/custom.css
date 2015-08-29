@@ -1,0 +1,67 @@
+#album-layout > li {
+  width:15%;
+  margin:.6%;
+  padding:0px;
+  display:inline-block;
+     margin-bottom:20px;
+  position:relative;
+}
+
+#album-layout > li .item_art img{
+width:100%!important;
+height:inherit!important;
+background-color: #333!important;
+  border-radius: 0px;
+
+margin: 0px;
+}
+#album-layout > li .item_art {
+margin-bottom:10px;
+  border: none;
+background-color: #333!important;
+}
+#album-layout > li .item_art:hover {
+
+  border: none;
+}
+
+
+#album-layout > li .cel_play{
+  position: absolute;
+  z-index: 9999;
+  top:-32px;
+  left:5px;
+  right:5px;
+ padding-top: 7px;
+  opacity: 1;
+  padding-right: 10px;
+  display:none;
+  background-color: #FFF;
+}
+#album-layout > li:hover .cel_play{
+  display:block;
+}
+#album-layout > li .cel_add,
+#album-layout > li .cel_play_content,
+#album-layout > li .cel_songs,
+#album-layout > li .cel_year,
+#album-layout > li .cel_tags,
+#album-layout > li .cel_action,
+#album-layout > li .cel_counter{
+  display:none;
+}
+
+
+
+.home_plugin{
+  display:none;
+}
+
+
+#information_actions > ul:nth-child(2) > li:nth-child(1),
+#information_actions > ul:nth-child(2) > li:nth-child(1) a{
+font-size: 20px;
+line-height: 19px;
+vertical-align: middle;
+padding: 10px 0px;
+}
