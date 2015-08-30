@@ -1710,14 +1710,13 @@ background-color: #333!important;
 #album-layout > li .cel_play{
   position: absolute;
   z-index: 9999;
-  top:-32px;
-  left:5px;
-  right:5px;
+  top:0px;
+  left:0px;
  padding-top: 7px;
   opacity: 1;
   padding-right: 10px;
   display:none;
-  background-color: #FFF;
+  background-color: rgba(255,255,255,0.7);
 }
 #album-layout > li:hover .cel_play{
   display:block;
